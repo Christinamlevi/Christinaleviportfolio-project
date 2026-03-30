@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Helvetica', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #6c63ff;
+      color: white;
+      text-align: center;
+      padding: 2rem 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    section h2 {
+      color: #6c63ff;
+      border-bottom: 2px solid #6c63ff;
+      padding-bottom: 0.3rem;
+    }
+
+    .project {
+      background: white;
+      padding: 1rem;
+      margin-top: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      background: #333;
+      color: white;
+    }
+
+    a {
+      color: #6c63ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Christina Levi</h1>
+    <p>Creative Designer & Digital Media Enthusiast</p> <!-- Updated subtitle -->
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm Christina, a creative designer exploring digital media and web projects. Welcome to my portfolio!</p>
+    </section>
+
+    <!-- NEW Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>I am experienced in web design, HTML, CSS, graphic design, and digital content creation. Always learning new tools and techniques!</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project One</h3>
+        <p>This project focused on web layout design using HTML and CSS, showcasing responsive design techniques.</p>
+      </div>
+      <div class="project">
+        <h3>Project Two</h3>
+        <p>Created interactive visual graphics using JavaScript and CSS animations to enhance user experience.</p>
+      </div>
+      <div class="project">
+        <h3>Project Three</h3>
+        <p>Developed a personal branding page combining typography, color theory, and responsive design principles for portfolio presentation.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can reach me at <a href="mailto:christina@example.com">christina@example.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 Christina Levi
+  </footer>
+
+</body>
+</html>
